@@ -1,0 +1,48 @@
+* {
+	/* everything helvetica */
+	font-family: helvetica;
+}
+
+div.container {
+	width: 600px; /*fix the width of the page */
+	margin: 0 auto; /*center the page */
+	height: 100%;
+}
+
+div.scroll_container {
+	height: 100%;
+	margin: auto;
+}
+
+header {
+	/* make height 10% of the browser viewport */
+	height: 70vh;
+	margin-bottom: 100px;
+}
+
+section.down_arrow {
+	height: 40vh;
+	text-align: center;
+}
+
+article {
+	height: 60vh;
+	margin: 30px 0px;
+}
+
+article img {
+	max-width: 30%;
+	display: block;
+}
+
+blockquote {
+	font-weight: bold;
+	font-color: #ffaadd;
+	font-size: 100px;
+	display: inline;
+	margin: 0px;
+	background-color: pink;
+	border-bottom: 20px dotted #f0f0f0;
+}
+
+

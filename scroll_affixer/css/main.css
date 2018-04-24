@@ -1,0 +1,25 @@
+/* fixed-width centered container div */
+div#wrapper {
+	/* none of these styles are important for the functionality */
+	width: 980px;
+	padding: 10px;
+	margin: 0 auto;
+	border: 1px solid #c0c0c0;
+}
+
+/* styles for the affixed element */
+#affix {
+	/* 
+	 * 'top' is the only important style in this block
+	 * once this element becomes 'fixed' position, it will sit at the top 
+	*/
+	top: 0px;
+
+	/* miscellaneous aesthetically-pleasing styles */
+	width: 960px;
+	padding: 10px;
+	height: 100px;
+	text-align: center;
+	background-color: yellow;
+	border: 1px solid #c0c0c0;
+}

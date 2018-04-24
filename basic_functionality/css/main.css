@@ -1,0 +1,31 @@
+body {
+	background-color: green;
+}
+div.container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid green;
+	background-color: white;
+	padding: 20px;
+}
+
+h1 {
+	background-color: yellow;
+}
+
+img {
+	display: block;
+}
+
+img#airplane {
+	width: 300px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+img#airplane:hover {
+	border: 3px dotted red;
+	cursor: crosshair;
+}
