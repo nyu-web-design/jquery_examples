@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Insert the title of your page here</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>  
+	<script type="text/javascript">
+
+var started = false;
+
+$(function() {
+	//blink the text prompt
+	setInterval(function() {
+		if (started) {
+			$(".standard_input").toggleClass("on");
+		}
+	}, 500);
+
+	//pop open the keyboard on mobile devices when clicked
+	$("#dummy_input_trigger").click(function(e) {
+		started = true;
+		$("#dummy_input").focus();
+		$("#dummy_input_trigger").val("");
+	})
+
+	//track keyboard input
+	$(document).keypress(function(e) {
+		console.log(e.which);
+		if (!started) {
+			$("#dummy_input_trigger").trigger("click");
+			started = true;
+		}
+
+		var oldText = $(".standard_input").text();
+		var newText;
+
+		var newChar = String.fromCharCode(e.which);
+
+		if (e.which == 13) {
+			console.log("Line break!");
+			newChar = "\n";
+			newText = oldText + newChar;
+		}
+		else if (e.which == 8) {
+			console.log("Backspace!");
+			newText = oldText.substring(0, oldText.length);
+		}
+		else {
+			newText = oldText + newChar;
+		}
+
+		$(".standard_input").text(newText);
+	});
+
+
+	//track keyup events just to catch the backspace, which isn't caught with keypress
+	$(document).keyup(function(e) {
+		var oldText = $(".standard_input").text();
+		var newText;
+
+		if (e.which == 8) {
+			console.log("Backspace!");
+			newText = oldText.substring(0, oldText.length - 1);
+		}
+
+		$(".standard_input").text(newText);
+
+	});
+
+});
+
+	</script>
+</head>
+<body>
+	<div class="container">
+		<input type="text" id="dummy_input" />
+		<input type="button" id="dummy_input_trigger" value="START" />
+		<span class="standard_input"></span>
+
+	</div>
+</body>
+</html>
