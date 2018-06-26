@@ -1,10 +1,10 @@
 # jquery_examples
 Fun with Javascript in the web browser
 
-<<<<<<< HEAD
-# example of a something
-Hello world!  How are you?
+# example of a heading
+This is writtten in Markdown syntax.
+Check it out [at wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
-=======
+## this is a subheading!
 hiiii
 
