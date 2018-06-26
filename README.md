@@ -2,4 +2,4 @@
 Fun with Javascript in the web browser
 
 # example of a something
-Hello world!
+Hello world!  How are you?
