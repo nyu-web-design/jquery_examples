@@ -1,0 +1,50 @@
+section#iguana_shots img, div#button_container {
+	width: 249px;
+	display: block;
+	float: left;
+	margin: 20px;
+	border: 2px solid red;
+	padding: 20px;
+}
+
+div#button_container {
+	display: none; /* hidden by default */
+	height: 150px;
+}
+
+div.container {
+	/* by setting the position: relative, we allow the car to be posititioned absolutely within the container */
+	position: relative;
+	width: 1000px;
+	padding: 20px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+/** clearfix **/
+div.clear {
+	clear: both;
+}
+
+input#show_iggy3 {
+	background-color: red;
+	border: 1px solid black;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	width: 249px;
+	margin-top: 70px;
+}
+
+img#convertible {
+	/* if you want the car to be able to move, it has to have position: absolute */
+	position: absolute;
+	width: 200px;
+
+	/* start off the car at the bottom right of the container */
+	right: 0px;
+	bottom: 0px;
+}
+
+
+
+

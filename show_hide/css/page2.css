@@ -1,0 +1,12 @@
+div#tooltip {
+	width: 60px;
+	height: 60px;
+	font-size: 6px;
+	padding: 10px;
+	background-color: yellow;
+}
+
+div#tooltip img {
+	max-width: 50px;
+	max-height: 50px;	
+}
