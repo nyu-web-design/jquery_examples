@@ -34,14 +34,17 @@ $(function() {
     });
 
     // wait for the user to press and release a key in the search field
-    $("input[type='search']").keyup(function() {
+    $("input[type='search']").keyup(function(e) {
 
-        // animate the first blueberry when they do
-        $("article#first_thing").animate({
-            // add 30px to the current top and left position of the berry
-            "left": $("article#first_thing").position().left + 30,
-            "top": $("article#first_thing").position().top + 30
+        // animate the first blueberry when they do... stop any previous animation that is still in progress
+        $("article#first_thing").stop().animate({
+            // move it + or - 15 pixels from its current top and left position of the berry
+            "left": (Math.random()*30 - 15),
+            "top": (Math.random()*30 - 15)
         });
+
+        // and just for fun, replace the paragraph text for the value of the text input field
+        $("p#second_paragraph").text($("input[type='search']").val())
 
     });
 
