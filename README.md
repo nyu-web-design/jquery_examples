@@ -17,7 +17,7 @@ See the examples
 - [donkey-animate](./donkey-animate)
 - [donkey-mouseover](./donkey-mouseover)
 - [donkey-slideup](./donkey-slideup)
-- firebase: [single value](./firebase/single-value), [multiple-values](./firebase/firebase-multiple-values)
+- firebase: [single value](./firebase/firebase-single-value), [multiple-values](./firebase/firebase-multiple-values)
 - [giraffes](./giraffes)
 - [ignuanas](./iguanas)
 - [scroll-affixer](./scroll-affixer)
