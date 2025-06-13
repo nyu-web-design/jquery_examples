@@ -6,7 +6,7 @@ Learn [how to use JQuery for web designers](https://knowledge.kitchen/content/co
 
 ## Deployed
 
-These examples are published and available to view [here](https://nyu-web-design.github.io/jquery_examples/), source code [here](https://github.com/nyu-web-design/jquery_examples).
+These examples are published and available to view [here](https://nyu-web-design.github.io/jquery-examples/), source code [here](https://github.com/nyu-web-design/jquery-examples).
 
 ## Examples
 
