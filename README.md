@@ -8,16 +8,16 @@ Learn [how to use JQuery for web designers](https://knowledge.kitchen/content/co
 
 These examples are published and available to view [here](https://nyu-web-design.github.io/jquery_examples/), source code [here](https://github.com/nyu-web-design/jquery_examples).
 
-## Source
+## Examples
 
-Source code for the examples:
+See the examples
 
 - [airplane flyaround](./airplane-flyaround)
 - [blueberries](./blueberries)
 - [donkey-animate](./donkey-animate)
 - [donkey-mouseover](./donkey-mouseover)
 - [donkey-slideup](./donkey-slideup)
-- [firebase](./firebase)
+- firebase: [single value](./firebase/single-value), [multiple-values](./firebase/firebase-multiple-values)
 - [giraffes](./giraffes)
 - [ignuanas](./ignuanas)
 - [scroll-affixer](./scroll-affixer)
