@@ -19,7 +19,7 @@ See the examples
 - [donkey-slideup](./donkey-slideup)
 - firebase: [single value](./firebase/single-value), [multiple-values](./firebase/firebase-multiple-values)
 - [giraffes](./giraffes)
-- [ignuanas](./ignuanas)
+- [ignuanas](./iguanas)
 - [scroll-affixer](./scroll-affixer)
 - [scrollmagic](./scrollmagic)
 - [show-hide](./show-hide)
